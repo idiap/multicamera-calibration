@@ -21,7 +21,7 @@ Getting the source
 
 clone the repository using :
 
-```git clone git@gitlab.idiap.ch:salim.kayal/multicamera-calibration.git```
+```git clone git@github.com:idiap/multicamera-calibration.git```
 
 Building the source
 -------------------
