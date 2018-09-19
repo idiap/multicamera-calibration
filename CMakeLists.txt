@@ -24,8 +24,8 @@ SET(gflags_DIR "${CMAKE_CURRENT_SOURCE_DIR}/cmake-external/")
 FIND_PACKAGE(gflags REQUIRED PATHS cmake_external)
 INCLUDE_DIRECTORIES(${GFLAGS_INCLUDE_DIRS})
 
-SET(SETTINGS "${BUILD_FLAGS} -std=c++14 -fopenmp -fexceptions -fpic")
-SET(OPTIMIZATIONS "${BUILD_FLAGS} -D_FORTIFY_SOURCE=2 -march=native -mtune=native -ffast-math")
+SET(SETTINGS "-std=c++14 -fopenmp -fexceptions -fpic")
+SET(OPTIMIZATIONS "-D_FORTIFY_SOURCE=2 -march=native -mtune=native -ffast-math")
 SET(DIAGNOSTICS "-Wall -Wextra -pedantic -Werror")
 
 
